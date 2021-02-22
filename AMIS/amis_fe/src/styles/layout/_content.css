@@ -1,0 +1,170 @@
+.content{
+    position: absolute;
+    top: 61px;
+    left: 201px;
+    width: calc(100% - 233px);
+    background-color: #f4f5f7;
+    padding:16px 16px 0 16px;
+    height: calc(100vh - 77px);
+}
+.content-title{
+    position: relative;
+    display: flex;
+    margin-top: 20px;
+}
+    .content-title .title{
+        font-family: 'notosans-bold';
+        font-size: 25px;
+    }
+    .content-title .btn-add{
+        position: absolute;
+        right: 10px;
+        height: 30px;
+        width: 60px;
+        color: #ffffff;
+        background-color: #2b8d18;
+        border:none;
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+        cursor: pointer;
+    }
+.back-to-nav{
+    display: flex;
+    align-items: center;
+    color: #0f69a3;
+    cursor: pointer;
+    width: 150px;
+    background-color: #f4f5f7 ;
+    border: none;
+    
+}
+    .back-to-nav .btn-nav{
+        background-color: #f4f5f7 ;
+        /* margin-top: 3px; */
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -228px -362px;
+        width: 8px;
+        height: 12px;
+        margin-right: 4px;
+    }
+
+.content-table{
+    width: 100%;
+    height: calc(100% - 97px);
+    margin-top: 12px;
+    margin-left: 12px;
+    background-color: #ffffff;
+    z-index: 1000;
+}
+    .content-search{
+        position: relative;
+        padding: 20px;
+        width: 270px;
+    }
+    .content-search input{
+        width: 100%;
+    }
+    .search-icon{
+        position: absolute;
+        top: 28px;
+        right: 24px;
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -956px -31px;
+        width: 22px;
+        height: 22px;
+     }
+.table-data{
+    width: calc(100% - 20px);
+    height: calc(100% - 130px);
+    padding-left: 12px;
+    /* background-color: aqua; */
+}
+    .paging-number{
+        width: 20px;
+        height:20px
+    }
+
+
+
+.pagination{
+    padding: 12px 0 0 12px;
+    width: calc(100% - 20px);
+    display: flex;
+    position: relative;
+}
+    .paging-right{
+        width: 420px;
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        right: 20px;
+        align-items: center;
+        /* background-color: aqua; */
+    }
+        .paging-right .previous{
+            color: #a5a1a1;
+        }
+        .paging-right .paging{
+            display: flex;
+            width: 100px;
+            justify-content: space-between;
+        }
+        .filter select{
+            padding-left: 4px;
+            width: 200px;
+        }
+
+
+/*Chức năng thêm sửa xoá*/
+.function{
+    display: flex;
+    border-top: 1px solid #000;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    border-bottom: none;
+    /* height: 50px; */
+}
+    .edit-column{
+        color: #0f69a3;
+        font-weight: bold;
+        width: 35px;
+    }
+    .btn-more{
+        width: 35px;
+        height: 20px;
+        margin-top: 4px;
+        margin-left: 4px;
+        position: relative;
+    }
+        .more-icon{
+            background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -900px -365px;
+            width: 8px;
+            height: 5px;
+            /* margin: 12px 0 0 4px; */
+        }
+
+        .list-function{
+            /* display: block; */
+            position: absolute;
+            border: 1px solid #000;
+            height: 120px;
+            width: 120px;
+            /* align-items: center; */
+            top: 40px;
+            left: -130px;
+            background-color: #ffffff;
+            /* display: none; */
+        }
+            .list-function .element{
+                padding: 0px 0 0 12px;
+                height: 40px;
+                /* align-items: center; */
+                text-align: left;
+                cursor: pointer;
+                width: 120px;
+            }
+            .list-function .element:hover{
+                color: #35aa1e;
+                background-color: #e8e9ed;
+            }

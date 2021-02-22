@@ -1,0 +1,114 @@
+.header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 201px);
+    height: 60px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+    top: 0;
+    left: 201px;
+}
+.company-list{
+    font-family: 'notosans-bold';
+    border: none;
+    padding-left: 4px;
+    width: 370px;
+    cursor: pointer;
+}
+.right-header{
+    position: absolute;
+    right: 24px;
+    display: flex;
+    align-items: center;
+    width: 660px;
+    height: 30px;
+    /* background-color: blueviolet; */
+    justify-content: space-between;
+}
+.right-header .search{
+    position: relative;
+    width: 230px;
+    background-color: cyan;
+    display: flex;
+}
+    .right-header .search input{
+        width: 100%;
+        height: 30px;
+    }
+    .right-header .search input:focus{
+        padding-left: 16px;
+    }
+    .right-header .search .serch-icon{
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -956px -31px;
+        width: 22px;
+        height: 22px;
+    }
+.right-header .option{
+    display: flex;
+    align-items: center;
+    width: 190px;
+    height: 30px;
+    /* background-color: crimson; */
+    justify-content: space-around;
+}
+    /* các option */
+    .option .option-list{
+        align-items: center;
+        cursor: pointer;
+        /* justify-content: space-between; */
+    }
+    
+    .option-more{
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -568px -30px;
+        width: 24px;
+        height: 24px;
+        /* align-items: center; */
+        
+    }
+    .option-tool{
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -676px -30px;
+        width: 23px;
+        height: 24px;
+    }
+    .option-message{
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -899px -30px;
+        width: 24px;
+        height: 25px;
+    }
+    .option-help{
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -732px -31px;
+        width: 22px;
+        height: 22px;
+    }
+    .option-notification{
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -788px -30px;
+        width: 22px;
+        height: 25px;
+    }
+.right-header .user-infor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 190px;
+    height: 30px;
+    /* background-color: crimson; */
+    cursor: pointer;
+    font-family: 'notosans-bold';
+}
+    .right-header .user-infor .user-avatar{
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -352px -894px;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+    }
+    .right-header .user-infor .user-more{
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -1078px -38px;
+        width: 9px;
+        height: 6px;
+        cursor: pointer;
+    }

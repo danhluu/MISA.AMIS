@@ -1,0 +1,160 @@
+.navbar{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 100vh;
+    background-color: #393a3e;
+    border-right: 1px solid #ffffff;
+}
+.navbar .logo-site {
+    display: flex;
+    align-items:center;
+    width: 100%;
+    height: 60px;
+}
+.navbar .logo-box {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    left: 35px;
+    cursor:pointer;
+}
+
+    /*Logo page*/
+    .navbar .logo-box .toggle-icon {
+        width: 30px;
+        height: 30px;
+        background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -428px -92px;
+        margin-top: 20px;
+    }
+
+    .navbar .logo-box .amis-logo {
+        position: absolute;
+        top: 12px;
+        left: -28px;
+        width: 100%;
+        height: 30px;
+        background: url('../../assets/img/Logo_Module_TiengViet_White.66947422.svg') no-repeat -31px -24px;
+        background-size: contain;
+        background-position: center;
+    }
+.navbar .navbar-content{
+    width: 100%;
+    height: calc(100% - 60px);
+    color: #ffffff;
+}
+    .navbar .navbar-content .nav-item{
+        display:flex;
+        padding-left:12px;
+        height:44px;
+        cursor:pointer;
+        line-height:44px;
+    }
+        .navbar .navbar-content .nav-item:hover {
+            background-color: #e5e5e5;
+            color: #000000;
+        }
+
+        .navbar .navbar-content .nav-item:focus{
+            background-color:#e5e5e5;
+        }
+
+        .navbar .navbar-content .nav-item:active{
+            background-color:#e5e5e5;
+        }
+        .nav-item .nav-item-icon {
+            width: 20px;
+            height: 20px;
+            align-self: center;
+            margin-right: 12px;
+        }
+/*tổng quan*/
+.nav-item-dashboard {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -33px -1630px;
+	width: 18px;
+	height: 20px;
+}
+/*tiền mặt*/
+.nav-item-cash {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -78px -1631px;
+	width: 14px;
+	height: 18px;
+}
+/*tiền gửi*/
+.nav-item-deposits {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -121px -1633px;
+	width: 16px;
+	height: 16px;
+}
+/*mua hàng*/
+.nav-item-buy {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -165px -1632px;
+	width: 16px;
+	height: 18px;
+}
+/*bán hàng*/
+.nav-item-sell {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -206px -1631px;
+	width: 20px;
+	height: 18px;
+}
+/*hoá đơn*/
+.nav-item-bill {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -254px -1632px;
+	width: 14px;
+	height: 17px;
+}
+/*kho*/
+.nav-item-warehouse {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -294px -1632px;
+	width: 18px;
+	height: 17px;
+}
+/*công cụ dụng cụ*/
+.nav-item-tool {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -339px -1633px;
+	width: 18px;
+	height: 17px;
+}
+/*tài sản cố định*/
+.nav-item-asset {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -382px -1632px;
+	width: 17px;
+	height: 18px;
+}
+/*thuế*/
+.nav-item-texas {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -427px -1634px;
+	width: 16px;
+	height: 16px;
+}
+/*giá thành*/
+.nav-item-price {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -471px -1633px;
+	width: 17px;
+	height: 17px;
+}
+/*tổng hợp*/
+.nav-item-general {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -514px -1632px;
+	width: 16px;
+	height: 18px;
+}
+/*ngân sách*/
+.nav-item-budget {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -552px -1636px;
+	width: 14px;
+	height: 13px;
+}
+/*báo cáo*/
+.nav-item-report {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -592px -1631px;
+	width: 23px;
+	height: 18px;
+}
+/*phân tích tài chính*/
+.nav-item-analysis {
+    background: url('../../assets/img/Sprites.64af8f61.svg') no-repeat -636px -1631px;
+	width: 19px;
+	height: 18px;
+}
